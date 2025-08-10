@@ -1,0 +1,121 @@
+<html>
+<head>
+    <title>Advanced HTML5: Enhancing Content Week 2 Assignment.</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <body>
+        <h1>Enhanced HTML Element Submission</h1>
+       <!--# using defination lists--> 
+        <h2>Defination Lists</h2>
+        <dl>
+           <!-- #creating defination tag -->
+            <dt>EPL</dt>
+            <dd>English Premier League.</dd>
+            <dt>KRA</dt>
+            <dd>Kenya Revenue Authority.</dd>
+            <dt>HTML</dt>
+            <dd>HyperText Markup Language.</dd>
+        </dl>
+        <h2>Nested Lists</h2>
+        <!--Creating List Within a List-->
+        <!-- Nested Ordered List -->
+        <h3>Major Towns in East African Countries.</h3>
+        <ol>
+            <li>Kenya
+                <ol type="a">
+                    <li>Nairobi</li>
+                    <li>Mombasa</li>
+                    <li>Kisumu</li>
+                </ol>
+            </li>
+            <li>Tanzania
+                <ol type ="a">
+                    <li>Dar es Salaam</li>
+                    <li>Dodoma</li>
+                    <li>Mwanza</li>
+                </ol>
+            </li>
+            <li>Uganda
+                <ol type="a">
+                    <li>Kampala</li>
+                    <li>Entebbe</li>
+                    <li>Jinja</li>
+                </ol>
+            </li>
+         </ol>
+         <h2>Embedding Videos, Audio in Web </h2>
+            <!--images-->
+        <h3>images recap</h3>
+        <!-- src attribute is the source where the image is location -->
+        <img src="images_video_audio/Picture1.jpeg" alt="Kuku aka Bihen" width="300" height="300">
+        <h3>Embedding audio</h3>
+        <!-- audio element with controls -->
+         <audio controls>
+            <source src="images_video_audio/Bane.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+         </audio>
+
+        <h3>Embedding video</h3>
+        <!-- video element with controls -->
+        <video width="320" height="240" controls>
+            <source src="images_video_audio/duck.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <h2>Using Tables</h2>
+        <!-- Creating a table to display data -->
+         <table border="1" cellpadding="5" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Country</th>
+                    <th>City</th>
+                    <th>Population</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Kenya</td>
+                    <td>Nairobi</td>
+                    <td>120,000</td>
+                </tr>
+                <tr>
+                    <td>Tanzania</td>
+                    <td>Dar es Salaam</td>
+                    <td>150,000</td>
+                </tr>
+            </tbody>
+         </table>
+        <h2>Using Forms</h2>
+        <!-- Creating a form to collect user input -->
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+            <label for="City">City:</label>
+            <input type="text" id="City" name="City" required>
+            <br><br>
+            <label for = "password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br><br>
+            <label for="city">Select your city:</label>
+            <!-- Select element to choose a city -->
+            <select name="city" id="city">
+                <option value="Nairobi">Nairobi</option>
+                <option value="Mombasa">Mombasa</option>
+                <option value="Kisumu">Kisumu</option>
+                <option value="Dar es Salaam">Dar es Salaam</option>
+                <option value="Dodoma">Dodoma</option>
+                <option value="Mwanza">Mwanza</option>
+                <option value="Kampala">Kampala</option>
+                <option value="Entebbe">Entebbe</option>
+                <option value="Jinja">Jinja</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Submit">
+
+
+    </body>
+</html>
